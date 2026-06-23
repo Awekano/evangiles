@@ -14,7 +14,7 @@ int main(void)
     ligne_aleatoire = rand() % (max - min + 1) + min;
 
     char ligne[1024];
-    const char *fichier = "evangiles.txt";
+    const char *fichier = "/usr/local/bin/evangiles.txt";
     FILE *f = fopen(fichier, "r");
     if (f == NULL)
     {
