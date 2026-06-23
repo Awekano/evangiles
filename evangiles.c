@@ -4,7 +4,7 @@
 
 int compteur = 0;
 int min = 0;
-int max = 25;
+int max = 171;
 int ligne_aleatoire = 0;
 
 int main(void)
