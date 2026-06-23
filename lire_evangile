@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "Lecture de l'évangile"
+"$(dirname "$0")/evangiles"
